@@ -1,0 +1,137 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; }
+
+.header {
+  background-color: white;
+  padding: 15px 0; }
+  .header-contacts {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    .header-contacts__phone {
+      font-size: 22px;
+      margin-right: 13px; }
+      .header-contacts__phone:first-child {
+        border-right: 1px solid #cfcfd0;
+        padding-right: 13px; }
+    .header-contacts__button {
+      font-size: 14px;
+      font-weight: 400;
+      color: #ffffff;
+      border: none; }
+
+.button {
+  font-size: 14px;
+  background-color: #ff9d00;
+  border: none;
+  color: #ffffff;
+  padding: 13px 22px;
+  border-radius: 5px;
+  outline: none; }
+  .button_big {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    vertical-align: middle; }
+  .button:hover {
+    background-color: #ffa71a;
+    cursor: pointer; }
+  .button img {
+    vertical-align: middle; }
+
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url("../fonts/Roboto-Black.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url("fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("fonts/Roboto-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+
+img {
+  max-width: 100%; }
+
+body {
+  margin: 0; }
+
+input:focus, button:focus {
+  outline: none; }
+
+.main {
+  position: relative;
+  padding-top: 65px;
+  padding-bottom: 60px;
+  color: #fff;
+  background: #373737 url(../img/bg.jpg) center no-repeat;
+  z-index: 1;
+  background-size: cover;
+  font-family: 'Roboto'; }
+  .main::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0; }
+  .main-img {
+    position: relative; }
+    .main-img::before {
+      content: '';
+      position: absolute;
+      width: 390px;
+      height: 390px;
+      left: 50%;
+      margin-left: -195px;
+      border: 1px solid #ffffff;
+      border-radius: 50%;
+      z-index: -1; }
+  .main-text__title {
+    font-size: 41px;
+    font-weight: 700;
+    margin-bottom: 10px; }
+  .main-text__subtitle {
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 27px; }
+  .main-text__form {
+    padding: 30px 27px;
+    background-color: rgba(255, 255, 255, 0.2); }
+
+.form {
+  display: flex;
+  margin-bottom: 12px; }
+  .form-title {
+    margin-bottom: 20px;
+    padding-right: 87px;
+    font-style: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 20px; }
+    .form-title__important {
+      text-transform: uppercase;
+      font-weight: 700; }
+  .form__input {
+    border-radius: 4px;
+    border: none;
+    padding: 20px;
+    font-size: 14px;
+    vertical-align: middle;
+    flex-basis: 60%;
+    margin-right: 10px; }
+  .form-small {
+    font-size: 14px;
+    font-weight: 300; }
