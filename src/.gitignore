@@ -1,2 +1,6 @@
 node_modules/
 .vscode/
+/*.js
+good-cardboard/**/*.js
+good-cardboard/**/*.json
+# git rm -r --cached bin
